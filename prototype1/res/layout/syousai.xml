@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <TextView
+            android:id="@+id/Text_syousai_kiyo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/game_fuki"
+            android:padding="10dp"
+            android:text="今までの\nお手伝い回数に応じて\n様々な設定ができます。"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imag_kupon_bg2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/col_cha9" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_syousai_result"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bt"
+        android:paddingTop="5dp"
+        android:text="お手伝い成績"
+        android:textColor="@color/white" />
+
+    <ListView
+        android:id="@+id/list_settei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_syousai_result"
+        android:layout_centerHorizontal="true" 
+        android:divider="@null">
+    </ListView>
+
+</RelativeLayout>

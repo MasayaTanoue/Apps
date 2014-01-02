@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="98dp"
+      android:layout_gravity="center_vertical"
+      android:background="@drawable/boad"
+      android:gravity="center_vertical"
+      android:orientation="horizontal"
+      android:paddingBottom="8dip"
+      android:paddingLeft="14dip"
+      android:paddingRight="14dip"
+      android:paddingTop="8dip" >
+
+      <ToggleButton
+          android:id="@+id/toggle1"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:background="@drawable/custom_tgl"
+          android:clickable="false"
+          android:enabled="false"
+          android:focusable="false"
+          android:text="ToggleButton"
+          android:textColor="@color/black"
+          android:textOff="OFF"
+          android:textOn="ON"
+          android:textSize="@dimen/text_size_medium" />
+
+    <TextView
+        android:id="@+id/te1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        android:text="1回"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/text_size_small"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/dark_blue"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:typeface="normal" />
+
+  </LinearLayout>
+</FrameLayout>

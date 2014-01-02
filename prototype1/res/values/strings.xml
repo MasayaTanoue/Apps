@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">もぐ～ぽん</string>
+    <string name="action_settings">Setting</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="game">&quot;ゲーム&quot;</string>
+    <string name="shop">&quot;交換所&quot;</string>
+    <string name="zukan">&quot;図鑑&quot;</string>
+    <string name="settei">&quot;設定&quot;</string>
+    <string name="rink">&quot;HPへ&quot;</string>
+    <string name="modoru">&quot;戻る&quot;</string>
+    <string name="gazou">&quot;非対応&quot;</string>
+    <string name="kekka">結果</string>
+    <string name="tairyoku">&quot;体力&quot;</string>
+    <string name="gizyutu">&quot;技術&quot;</string>
+    <string name="un">&quot;運&quot;</string>
+    <string name="value1">1</string>
+    <string name="kiyo_vo_stage">  エリアを選ぶラヨー!!</string>
+    <string name="kiyo_vo_kupon1">交換したい</string>
+    <string name="kiyo_vo_kupon2">クーポンを選ぶラヨー♪</string>
+    
+    <string name="kupon_name">サービス名</string><string name="naiyou">サービス内容</string><string name="kupon_kigen">有効期間</string>
+    <string name="kupon_siyou">使用方法</string>
+    <string name="kupon_jogen">残り発行数</string><string name="point">現在のポイント：</string>
+    <string name="kupon_koukan">交換</string>
+    <string name="kiyo_vo_zukan">エリアを選ぶラヨー!!</string>
+    <string name="col_rare">レア度：</string>
+    <string name="TOP"/>
+    <color name="white">#FFFFFF</color>
+    <string name="syokisute">0</string>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000ff</color>
+    <color name="yellow">#ffff33</color>
+    <string name="syokiranku">E</string>
+    <string name="miryoku">魅力</string>
+    <color name="dark_blue">#003380</color>
+    <string name="sukusyo1">スクリーンショットを</string>
+    <string name="sukusyo2">撮影するラヨー!!</string>
+    <string name="result">経営結果</string>
+    <string name="result_title">Result</string>
+    <string name="result_1">来客数</string>
+    <string name="result2">満足度</string>
+    <string name="result3">獲得MOG</string>
+    <string name="result_hyouka">評価</string>
+    <color name="black">#000000</color>
+    <string name="geme_kiyo_fuki">カードを選ぶとゲーム開始ラヨッ！!</string>
+    <string name="next">Next</string>
+    <color name="toumei">#00000000</color>
+    <string name="kupon_bikou">備考</string>
+    <color name="creem">#00c000</color>
+    <string-array name="str_col_bonus">
+        <item>観光地図鑑</item>
+    	<item>イベント図鑑</item>
+    	<item>キャラクター図鑑</item>
+    </string-array>
+    
+    
+    
+
+</resources>

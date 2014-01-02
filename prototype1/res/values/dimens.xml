@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="stage_image_yoko">80dp</dimen>
+    <dimen name="stage_image_tate">52dp</dimen>
+    <dimen name="txt_size_min">5dp</dimen>
+    <dimen name="txt_size_Top">10dp</dimen>
+    <dimen name="kupon_tate">80dp</dimen>
+    <dimen name="kupon_yoko">80dp</dimen>
+    <dimen name="game_text">25dp</dimen>
+    <dimen name="top_btn_size">60dp</dimen>
+    <dimen name="text_size_micro">12sp</dimen>  
+    <dimen name="text_size_small">14sp</dimen>  
+    <dimen name="text_size_medium">18sp</dimen>  
+    <dimen name="text_size_large">22sp</dimen>  
+
+</resources>
